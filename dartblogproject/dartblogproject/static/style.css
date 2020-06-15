@@ -1,0 +1,808 @@
+@font-face {
+    font-family: Geometria;
+    src: url(geometria_font/Geometria.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: Geometria;
+    src: url(geometria_font/Geometria-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: Geometria;
+    src: url(geometria_font/Geometria-ExtraBold.ttf);
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: Geometria;
+    src: url(geometria_font/geometria-light.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Geometria;
+    src: url(geometria_font/geometria-medium.ttf);
+    font-weight: 500;
+}
+
+.wrapper header.header .logo {}
+
+.wrapper header.header .logo h2 {
+    margin: 0 0 0 40px;
+    padding: 0;
+}
+
+.wrapper header.header .logo h2 a {
+    color: #4D536E;
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    line-height: 70px;
+    padding: 22px 0;
+    text-transform: uppercase;
+}
+
+.wrapper header.header .menu {
+    margin: 0;
+    text-align: center;
+}
+
+.wrapper header.header .menu ul {
+    margin: 0;
+    padding: 0;
+    margin-right: 0px;
+}
+
+.wrapper header.header .menu ul li {
+    display: inline-block;
+    list-style: outside none none;
+    margin: 0 0px 0 0;
+}
+
+.wrapper header.header .menu ul li a {
+    color: rgb(6, 30, 55);
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 70px;
+    padding: 26px 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.wrapper header.header .menu ul li.active a {
+    background: #4D536E;
+    color: #fff;
+}
+
+.wrapper header.header .menu ul li a:hover {
+    background: #4d536e;
+    color: #fff;
+}
+
+.wrapper section.bg-text-area .bg-text {
+    background-image: url(img/top_img.jpg);
+    background-position-y: 80%;
+    padding: 5%;
+    box-shadow: 0 0 10px #4D536E;
+    border-radius: 5px;
+}
+
+.wrapper section.bg-text-area .container {}
+
+.wrapper section.bg-text-area .bg-text h3 {
+    color: #fff;
+    font-family: Geometria;
+    font-size: 50px;
+    font-weight: 700;
+
+    text-transform: uppercase;
+    margin: 0;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #443846;
+}
+
+.wrapper section.bg-text-area .bg-text p {
+    color: #fff;
+    font-family: Geometria;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 33px;
+    margin: 30px 0px 10px;
+
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #443846;
+}
+
+section.blog-post-area {
+    margin-top: 50px;
+}
+
+section.blog-post-area .big-image {
+    float: left;
+    width: 51%;
+    padding-right: 27px;
+    padding-bottom: 20px;
+}
+
+section.blog-post-area .big-text {
+
+    padding-left: 0px;
+    padding-bottom: 15px;
+}
+
+section.blog-post-area img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    box-shadow: 0 0 10px #4D536E;
+    border-radius: 5px;
+}
+
+section.blog-post-area .single-post-big img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    box-shadow: 0 0 10px #4D536E;
+    border-radius: 5px;
+}
+
+
+section.blog-post-area .big-text h3 {
+    margin: 0 0 0 0;
+}
+
+section.blog-post-area .big-text h3 a {
+    font-family: Geometria;
+    font-weight: 700;
+    font-size: 40px;
+    color: #363a4d;
+    text-decoration: none;
+    overflow-wrap: break-word;
+
+}
+
+section.blog-post-area .big-text p {
+    color: #4D536E;
+    font-family: Geometria;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    padding-top: 0px;
+    text-align: justify;
+    text-decoration: none;
+}
+
+section.blog-post-area .big-text h4 {
+    margin-top: 0px;
+    padding-top: 0px;
+    position: relative;
+}
+
+/*section.blog-post-area .big-text h4::before {
+    background: #e6e6e6 none repeat scroll 0 0;
+    content: "";
+    height: 1px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}*/
+
+section.blog-post-area .single-post {
+    padding-right: 0px;
+    padding-top: 5%;
+    margin: 10px 0px 10px;
+}
+
+section.blog-post-area h4 span {
+    font-family: Geometria;
+    font-weight: 400;
+    font-size: 15px;
+    color: #4D536E;
+    text-decoration: none;
+}
+
+section.blog-post-area .big-text h4 span.author {
+    float: right
+}
+
+section.blog-post-area h4 span.author-name {
+    font-weight: 500;
+}
+
+.blog-post-area .single-post h3 a {
+    font-family: Geometria;
+    font-size: 28px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #4D536E;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.blog-post-area .single-post p {
+    color: #4D536E;
+    font-family: Geometria;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 30px;
+    padding-top: 0px;
+    position: relative;
+    text-align: justify;
+}
+
+.blog-post-area .single-post h4 {
+    margin-bottom: 12px;
+    padding-top: 10px;
+    position: relative;
+}
+
+/*.blog-post-area .single-post h4::before {
+    background: #e6e6e6 none repeat scroll 0 0;
+    content: "";
+    height: 1px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}*/
+
+/*.blog-post-area .single-post p::before {
+    background: #e6e6e6 none repeat scroll 0 0;
+    content: "";
+    height: 1px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}*/
+
+.blog-post-area .single-post h3 {
+    margin: 5px 0 0px;
+    height: 70px;
+    position: relative;
+}
+
+.blog-post-area .pegination {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.blog-post-area .pegination .nav-links {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.blog-post-area .pegination .nav-links .page-numbers {
+    border: 1px solid #4d536e;
+    border-radius: 50%;
+    color: #4d536e;
+    display: inline-block;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    height: 45px;
+    line-height: 45px;
+    list-style: outside none none;
+    margin-right: 5px;
+    text-align: center;
+    width: 45px;
+}
+
+.blog-post-area .blog-post-area-style {
+
+}
+
+.blog-post-area .pegination .nav-links .page-numbers.current {
+    background: #4d536e;
+    color: #fff;
+}
+
+.blog-post-area .pegination .nav-links .page-numbers:hover {
+    background: #4d536e;
+    color: #fff;
+}
+
+.blog-post-area .pegination .nav-links a {
+    text-decoration: none;
+}
+
+.wrapper footer.footer {
+    height: 100px;
+}
+
+.wrapper footer .footer-bg {
+    background: #242733;
+
+    overflow: hidden;
+}
+
+.wrapper footer.footer .footer-menu {
+    margin: 0;
+    text-align: center;
+}
+
+.wrapper footer.footer .footer-menu ul {
+    line-height: 116px;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper footer.footer .footer-menu ul li {
+    display: inline;
+    list-style: outside none none;
+    margin: 0;
+    padding: 0px 0px;
+}
+
+.wrapper footer.footer .footer-menu ul li a {
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 70px;
+    margin-left: 0px;
+    padding: 25px 25px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.wrapper footer.footer .footer-icon p {
+    float: right;
+    line-height: 130px;
+}
+
+.wrapper footer.footer .footer-icon p i {
+    color: #fff;
+    font-size: 18px;
+    margin-right: 30px;
+    padding: 10px;
+}
+
+
+/*css for single blog page*/
+
+.single-blog-area {
+    margin-bottom: 100px;
+}
+
+.single-blog-area .border-top {
+    border-top: 0px solid #4D536E;
+}
+
+.single-blog-area h2 {
+    color: #010101;
+    font-family: Geometria;
+    font-size: 38px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    margin-top: 45px;
+}
+
+.single-blog-area p {
+    font-family: Geometria;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    position: relative;
+    text-align: justify;
+}
+
+.single-blog-area .blog-area-part p {
+    margin-top: 0px;
+}
+
+.single-blog-area .for-style {
+    margin-bottom: 50px;
+}
+
+.single-blog-area .for-style p span {
+    color: #4D536E;
+    float: left;
+    font-family: Geometria;
+    font-size: 60px;
+    font-weight: 400;
+    margin: 18px 30px 20px 20px;
+    position: relative;
+}
+
+/*.single-blog-area .for-style p span.drop_caps::before {
+    color: #4D536E;
+    content: "”";
+    font-size: 40px;
+    left: -20px;
+    position: absolute;
+    top: -7px;
+    font-weight: 500;
+}*/
+
+/*.single-blog-area .for-style p span::after {
+    color: #4D536E;
+    content: "”";
+    font-size: 40px;
+    right: -15px;
+    position: absolute;
+    top: -7px;
+    font-weight: 500;
+}*/
+
+.single-blog-area h3 {
+    color: #757575;
+    font-family: Geometria;
+    font-size: 38px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 65px;
+    margin-bottom: 25px;
+    word-spacing: 15px;
+}
+
+.single-blog-area h3 i.fa-quote-left {
+    float: left;
+    font-size: 55px;
+    font-style: italic;
+    margin-right: 20px;
+    margin-top: 10px;
+    color: #eeeeee;
+}
+
+.single-blog-area h3 i.fa-quote-right {
+    display: inline-block;
+    font-size: 55px;
+    font-style: italic;
+    margin-left: 20px;
+    color: #eeeeee;
+}
+
+.single-blog-area .image-one {
+    padding-right: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.single-blog-area .image-two {
+    width: 100%;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.single-blog-area img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    box-shadow: 0 0 10px #4D536E;
+    border-radius: 5px;
+}
+
+.single-blog-area .blog-area {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.single-blog-area .ads-area {
+    border-top: 1px solid #e6e6e6;
+    margin-top: 30px;
+    padding: 50px 0;
+    position: relative;
+}
+
+.single-blog-area .ads-area img {
+    width: 100%;
+    height: 90px;
+    padding: 0 60px;
+}
+
+.single-blog-area .ads-area p {
+    color: #fff;
+    font-family: Geometria;
+    font-size: 33px;
+    font-weight: 500;
+    line-height: 150px;
+    position: absolute;
+    text-align: center;
+    top: 15px;
+    width: 100%;
+}
+
+
+/*comment part start*/
+
+.single-blog-area .commententries h3 {
+    color: #010101;
+    font-family: Geometria;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    margin-left: 20px;
+    margin-bottom: 0px;
+    position: relative;
+    word-spacing: 0px;
+}
+
+/*.single-blog-area .commententries h3::before {
+    background: #e6e6e6 none repeat scroll 0 0;
+    content: "";
+    height: 1px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}*/
+
+.single-blog-area .commententries ul {
+    margin: 0;
+    padding: 0;
+}
+
+.single-blog-area .commententries ul ul {
+    margin-left: 60px;
+}
+
+.single-blog-area .commententries ul li article.comment {
+    padding-bottom: 13px;
+    padding-top: 5px;
+    position: relative;
+}
+
+/*.single-blog-area .commententries ul li article.comment:before {
+    background: #e6e6e6 none repeat scroll 0 0;
+    content: "";
+    height: 1px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}*/
+
+
+}
+.single-blog-area .commententries .author-name h5 a {
+    font-family: Geometria;
+    font-size: 21px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #000;
+}
+.single-blog-area .commententries .author-name h5 a {
+    color: #000;
+    font-family: Geometria;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 10px;
+    color: #000;
+    text-decoration: none;
+}
+.single-blog-area .commententries .author-name p {
+    color: #000;
+    font-family: Geometria;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 10px;
+    color: #989191
+}
+.single-blog-area .commententries .comment-body p {
+    font-family: Geometria;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: initial;
+
+
+}
+.single-blog-area .commententries .reply p span {
+    color: #989191;
+    font-family: Geometria;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 50px;
+}
+.single-blog-area .commententries .reply p span i {
+    color: #989191;
+    margin-right: 10px;
+}
+.single-blog-area .commententries ul {
+    overflow: hidden;
+}
+.single-blog-area .commententries ul li {
+    list-style: none
+}
+.commententries .comment-author {
+    border-radius: 50%;
+    float: left;
+    height: 55px;
+    width: 55px;
+}
+.commententries .comment-details {
+    margin-left: 50px;
+}
+.single-blog-area form input {
+    border: 1px solid #e6e6e6;
+    margin: 0;
+    padding: 12px 22px;
+    border-radius: 5px;
+    width: 100%
+}
+.single-blog-area form input[placeholder] {
+    color: #000;
+    font-family: Geometria;
+    font-size: 16px;
+    font-weight: 500;
+}
+.single-blog-area form .name {
+    float: left;
+    margin-bottom: 15px;
+    width: 50%;
+}
+.single-blog-area form .email {
+    width: 50%;
+    float: right;
+}
+.single-blog-area form .name input {
+    width: 95%;
+}
+.single-blog-area form .name .name {
+    margin-right: 20px;
+}
+.single-blog-area form .email input {
+    width: 95%;
+}
+.single-blog-area form .comment {
+    margin-right: 150px;
+}
+.single-blog-area form .post {
+    bottom: 0;
+    position: absolute;
+    right: 0;
+}
+.single-blog-area form .post input[type="submit"] {
+    background: #4D536E none repeat scroll 0 0;
+    bottom: 0;
+    color: #fff;
+    font-family: Geometria;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 14px 38px;
+    right: -150px;
+    text-transform: uppercase;
+    width: auto;
+}
+.single-blog-area form {
+    margin: 50px 0 0 20px;
+    position: relative;
+}
+
+/*comment part end*/
+.grid .portfolio-item {
+    margin-bottom: 30px;
+}
+.grid .portfolio-item img {
+    float: left;
+    height: 50px;
+    width: 100px;
+}
+.single-blog-area .grid .portfolio-item .portfolio-text {
+    margin-left: 110px;
+}
+.single-blog-area .grid .portfolio-item .portfolio-text h5 {
+    margin: 0
+}
+.single-blog-area .grid .portfolio-item .portfolio-text h5 a {
+    color: #000;
+    font-family: Geometria;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 27px;
+    text-decoration: none;
+}
+.single-blog-area .grid .portfolio-item .portfolio-text p {
+    font-family: Geometria;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #b2b2b2;
+}
+.single-blog-area .grid .portfolio-item .portfolio-text p span {
+    margin: 0 10px;
+}
+.single-blog-area .button-group button {
+    border: medium none;
+    border-radius: 0;
+    color: #000;
+    display: inline-block;
+    font-family: Geometria;
+    font-size: 13px;
+    font-weight: 500;
+    margin-right: -2px;
+    padding: 21px;
+    text-transform: uppercase;
+    width: 33%;
+}
+.single-blog-area .button-group {
+    margin: 40px 0;
+}
+.single-blog-area .button-group button.is-checked {
+    background: #4D536E;
+    color: #fff;
+}
+.single-blog-area .button-group button:hover {
+    background: #4D536E;
+    color: #fff;
+}
+.single-blog-area .sidebar-ads {
+    width: 300px;
+    position: relative;
+}
+.single-blog-area .sidebar-ads p {
+    color: #fff;
+    font-family: Geometria;
+    font-size: 30px;
+    font-weight: 500;
+    position: absolute;
+    text-align: center;
+    top: 85px;
+    width: 100%;
+}
+.single-blog-area h2.sidebar-title {
+    background: #363547;
+    color: #eee;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: #443846;
+    font-family: Geometria;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    padding: 21px 25px;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+.single-blog-area .tags p {
+    background: #4D536E;
+    color: #eee;
+    border-radius: 5px;
+    display: inline-block;
+    font-family: Geometria;
+    font-size: 13px;
+    font-weight: 500;
+    margin-right: 4px;
+    padding: 0 12px;
+    margin-bottom: 7px;
+}
+.single-blog-area .tags p a {
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+}
+.single-blog-area .newsletter form {
+    margin: 30px 0 0;
+}
+.single-blog-area .newsletter input[type="email"] {
+    width: 50%;
+    margin-right: 20px;
+}
+.single-blog-area .newsletter input[type="submit"] {
+    width: 40%;
+    background: #4D536E;
+    color: #fff;
+    font-family: Geometria;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.single-blog-area .comment-form-container input[type="submit"] {
+    width: 40%;
+    background: #4D536E;
+    color: #fff;
+    font-family: Geometria;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+@media (min-width: 1200px) {
+  .blog-post-area .single-post p {
+    height: 150px;
+  }
